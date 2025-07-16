@@ -3,7 +3,6 @@ import { PdfViewerComponent, Toolbar, Navigation, Annotation, Print, TextSelecti
 const pdfUrl = "https://cdn.syncfusion.com/content/pdf/annotations-v2.pdf";
 
 function AnnotationSample() {
-  let viewer;
   return (
     <div>
       <PdfViewerComponent
