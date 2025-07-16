@@ -1,4 +1,4 @@
-import { PdfViewerComponent, Toolbar, Navigation, Annotation, Print, TextSelection, TextSearch, Magnification, Inject, StandardBusinessStampItem, DynamicStampItem, SignStampItem, DisplayMode } from '@syncfusion/ej2-react-pdfviewer';
+import { PdfViewerComponent, Toolbar, Navigation, Annotation, Print, TextSelection, TextSearch, Magnification, Inject } from '@syncfusion/ej2-react-pdfviewer';
 
 const pdfUrl = "https://cdn.syncfusion.com/content/pdf/annotations-v2.pdf";
 
@@ -7,7 +7,6 @@ function AnnotationSample() {
   return (
     <div>
       <PdfViewerComponent
-       ref={(scope) => { viewer = scope; }}
         id="annotationSample"
         documentPath={pdfUrl}
         style={{ height: '80vh', width: '100%' }}
